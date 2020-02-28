@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_electronica"
+        android:icon="@drawable/icons8_electronics"
+        android:title="Electronica" />
+    <item
+        android:id="@+id/nav_routers"
+        android:icon="@drawable/icons8_wifi_router"
+        android:title="Routers" />
+    <item
+        android:id="@+id/nav_kits"
+        android:icon="@drawable/icons8_package"
+        android:title="Kits" />
+    <item
+        android:id="@+id/nav_robotica"
+        android:icon="@drawable/icons8_robotics"
+        android:title="Robotica" />
+    <item
+        android:id="@+id/nav_3d"
+        android:icon="@drawable/icons8_3d_object_filled"
+        android:title="Impresiones 3d" />
+
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_add_cart"
+        android:title="Carro" />
+    <item
+        android:id="@+id/nav_clientes"
+        android:icon="@drawable/icons8_client_base"
+        android:title="Clientes" />
+    <item
+        android:id="@+id/nav_sync"
+        android:icon="@drawable/icons8_sync"
+        android:title="Sync" />
+
+</menu>

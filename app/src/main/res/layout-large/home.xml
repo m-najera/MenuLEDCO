@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:scrollX="2dp"
+    android:scrollbars="vertical"
+    tools:context=".HomeFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/home_iv0"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:tint="@color/colorAccent"
+        android:contentDescription="Logo Principal"
+        android:src="@drawable/icons8_3d_object_filled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/home_iv3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="Categoria 3"
+        android:src="@mipmap/impresion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/home_iv2"
+        app:layout_constraintTop_toTopOf="@+id/home_iv2" />
+
+    <ImageView
+        android:id="@+id/home_iv1"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="Categoria1"
+        android:src="@mipmap/electronicos1"
+        app:layout_constraintEnd_toStartOf="@+id/home_iv2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_iv2" />
+
+    <ImageView
+        android:id="@+id/home_iv2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/robotica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_iv0"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <ImageView
+        android:id="@+id/home_iv5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="Categoria5"
+        android:src="@mipmap/kits"
+        app:layout_constraintEnd_toEndOf="@+id/home_iv3"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="@+id/home_iv2"
+        app:layout_constraintTop_toTopOf="@+id/home_iv4" />
+
+    <ImageView
+        android:id="@+id/home_iv4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Categoria4"
+        android:src="@mipmap/routers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/home_iv2"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="@+id/home_iv1"
+        app:layout_constraintTop_toBottomOf="@+id/home_iv2"
+        app:layout_constraintVertical_bias="0.3" />
+
+</android.support.constraint.ConstraintLayout>
